@@ -5,7 +5,7 @@ import java.util.Objects;
 public class Formation {
     private int id;
     private String theme;
-    private Integer lieu;
+    private Lieu lieu;
 
     public int getId() {
         return id;
@@ -23,12 +23,12 @@ public class Formation {
         this.theme = theme;
     }
 
-    public Integer getLieu() {
+    public Object getLieu() {
         return lieu;
     }
 
-    public void setLieu(Integer lieu) {
-        this.lieu = lieu;
+    public void setLieu(Object lieu) {
+        this.lieu = (Lieu) lieu;
     }
 
     @Override

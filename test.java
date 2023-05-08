@@ -23,7 +23,7 @@ public class test {
         lieu.setAdresse("123 Rue de la Paix");
         lieu.setVille("Parisssssss");
         daol.save(lieu);
-        formation.setLieu(lieu.getId());
+        formation.setLieu(lieu);
         Formateur formateur1 = new Formateur();
         formateur1.setCin("W434322");
         formateur1.setNom("John Doe");
