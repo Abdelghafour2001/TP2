@@ -2,7 +2,8 @@ package com.example.tp2.models;
 
 import java.util.Objects;
 
-public class Formation {
+public class
+Formation {
     private int id;
     private String theme;
     private Lieu lieu;
